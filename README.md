@@ -9,11 +9,11 @@ A travel-planning web app for parents of a child with severe peanut and tree nut
 
 **Explore: pre-trip feasibility by destination**
 
-![Explore screen showing destinations with feasibility badges](screenshots-explore.jpg)
+![Explore screen showing destinations with feasibility badges](docs/screenshots/explore.jpg)
 
 **Venue detail: why a place has the rating it has**
 
-![Venue detail screen with an evidence breakdown](screenshots-venue-detail.jpg)
+![Venue detail screen with an evidence breakdown](docs/screenshots/venue-detail.jpg)
 
 ## What it does
 
@@ -30,4 +30,4 @@ React, Vite, TypeScript, Tailwind CSS and Supabase (accounts and shared reports)
 
 ## Status
 
-Early prototype. The source code is not published in this repository yet.
+Early prototype. Run it locally with `npm install` then `npm run dev`. Copy `.env.example` to `.env.local` and add your own Supabase URL and publishable key to turn on accounts and shared reports.
